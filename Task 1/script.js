@@ -1,7 +1,8 @@
-function toggleMobileMenu() {
-    var mobileMenu = document.querySelector('.mobile-menu');
-    var menuIcon = document.getElementById('menuIcon');
-    var closeIcon = document.getElementById('closeIcon');
+  
+const toggleMobileMenu = () => {
+    let mobileMenu = document.querySelector('.mobile-menu');
+    let menuIcon = document.getElementById('menuIcon');
+    let closeIcon = document.getElementById('closeIcon');
   
     if (mobileMenu.style.display === 'flex') {
       mobileMenu.style.display = 'none';
@@ -12,5 +13,4 @@ function toggleMobileMenu() {
       menuIcon.style.display = 'none';
       closeIcon.style.display = 'inline-block';
     }
-  }
-  
+}
