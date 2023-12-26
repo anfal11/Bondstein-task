@@ -1,4 +1,4 @@
-** Here in Task 1:
+* Here in Task 1:
 # Live link: https://bondsteintask.surge.sh/
 # This is mainly a navbar which is created by HTML5, CSS3 and Vanilla js. 
 
